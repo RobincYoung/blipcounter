@@ -21,7 +21,7 @@ void loop() {
   {
   if (wasprev <= 0)
    {
-    wasprev=100000;
+    wasprev=1000;
     lastmic = micros();
    }
   else
